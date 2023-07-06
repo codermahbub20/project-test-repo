@@ -65,21 +65,43 @@
     border: none;
     margin-top: 10px;
     border-radius: 2px;
+    cursor: pointer;
 }
 .banner-img{
     width: 320px;
 }
 .about-section{
     display: flex;
-    height: 450px;
+    height: 370px;
     justify-content: space-around;
     align-items: center;
+    border: 2px solid gray;
 }
 .about-section-photo{
-    width: 250px;
+    width: 300px;
     
 }
 .about-heading{
     text-align: center;
     display: block;
+    margin-top: 10px;
+    font-size: 55px;
+}
+.about-content-head{
+   margin-top: -10px; 
+}
+.about-p{
+    font-size: 20px;
+    margin-top: 20px;
+}
+.about-btn{
+    height: 40px;
+    width: 140px;
+    text-align: center;
+    background-color: red;
+    color: white;
+    border: none;
+    margin-top: 20px;
+    border-radius: 2px;
+    cursor: pointer;
 }
