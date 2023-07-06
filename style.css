@@ -4,7 +4,7 @@
 }
 
 .menus-container{
-    background-color: rgb(32, 32, 32);
+    background-color: #424141;
     padding: 20px;
     padding: 20px;
     display: flex;
@@ -35,7 +35,7 @@
 }
 .banner-container{
     height: 100vh;
-    border: 2px solid gray;
+    /* border: 2px solid gray; */
     display: flex;
     align-items: center;
     justify-content: space-around;
@@ -45,10 +45,27 @@
     background-repeat: no-repeat;
 }
 .banner-heading{
-    font-size: 45px;
+    font-size: 50px;
     font-weight: bold;
     color: white;
 }
+.banner-paragraph{
+    color: white;
+    font-size: 18px;
+    /* font-weight: bold; */
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+.btn{
+    height: 40px;
+    width: 120px;
+    text-align: center;
+    background-color: red;
+    color: white;
+    border: none;
+    margin-top: 10px;
+    border-radius: 2px;
+}
 .banner-img{
-    width: 350px;
+    width: 320px;
 }
