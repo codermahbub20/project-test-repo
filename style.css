@@ -72,10 +72,10 @@
 }
 .about-section{
     display: flex;
-    height: 370px;
+    height: 280px;
     justify-content: space-around;
     align-items: center;
-    border: 2px solid gray;
+    /* border: 2px solid gray; */
 }
 .about-section-photo{
     width: 300px;
@@ -104,4 +104,91 @@
     margin-top: 20px;
     border-radius: 2px;
     cursor: pointer;
+}
+.service-container{
+    height: 550px;
+    width: 100%;
+    background-image: url("./Photos/background.png"),linear-gradient(45deg,rgb(8, 8, 8),rgb(53, 53, 53));
+    display: flex;
+    /* text-align: center; */
+    margin-top: 50px;
+}
+
+.icon{
+    width: 70px;
+}
+.box{
+    width: 230px;
+    height: 300px;
+    box-shadow: 4px 4px 15px gray;
+    background-color: #1C1C1C;
+    text-align: center;
+    padding: 15px;
+    color: white;
+    margin: 50px;
+    justify-content: space-around;
+    margin-left: 240px;
+    margin-top: 130px;
+    border-radius: 10px;
+    opacity: 0.6;
+    /* display: block; */
+    /* display: flex; */
+    position: absolute;
+}
+.box1{
+    width: 230px;
+    height: 300px;
+    box-shadow: 4px 4px 15px gray;
+    background-color: #1C1C1C;
+    text-align: center;
+    padding: 15px;
+    color: white;
+    margin: 50px;
+    justify-content: space-around;
+    margin-left: 640px;
+    margin-top: 130px;
+    border-radius: 10px;
+    opacity: 0.6;
+    /* display: block; */
+    /* display: flex; */
+    position: absolute;
+}
+.box2{
+    width: 230px;
+    height: 300px;
+    box-shadow: 4px 4px 15px gray;
+    background-color: #1C1C1C;
+    text-align: center;
+    padding: 15px;
+    color: white;
+    margin: 50px;
+    justify-content: space-around;
+    margin-left: 1040px;
+    margin-top: 130px;
+    border-radius: 10px;
+    opacity: 0.6;
+    /* display: block; */
+    /* display: flex; */
+    position: absolute;
+}
+.jamela{
+    text-align: center;
+    margin-left: 670px;
+    margin-top: 40px;
+    display: flex;
+    font-size: 50px;
+    color: white;
+    /* position: relative; */
+}
+.box-title{
+    padding: 20px;
+}
+.box-description{
+    padding: 5px;
+    /* justify-content: space-between; */
+}
+
+.service-btn{
+    border-radius: 7px;
+    font-size: 18px;
 }
