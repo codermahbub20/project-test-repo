@@ -39,7 +39,7 @@
     display: flex;
     align-items: center;
     justify-content: space-around;
-    background-image: url("background.png"),linear-gradient(45deg,rgb(8, 8, 8),rgb(53, 53, 53));
+    background-image: url("./Photos/background.png"),linear-gradient(45deg,rgb(8, 8, 8),rgb(53, 53, 53));
     background-position: center;
     background-size: cover;
     background-repeat: no-repeat;
@@ -68,4 +68,18 @@
 }
 .banner-img{
     width: 320px;
+}
+.about-section{
+    display: flex;
+    height: 450px;
+    justify-content: space-around;
+    align-items: center;
+}
+.about-section-photo{
+    width: 250px;
+    
+}
+.about-heading{
+    text-align: center;
+    display: block;
 }
